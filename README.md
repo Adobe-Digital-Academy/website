@@ -16,6 +16,20 @@ Install Next.js:
 
 ###Running the app:
 First, run the development server:
+Ensure you are using node 18.17.0 or above
+
+First, install packages
+
+```bash
+npm install
+# or
+yarn
+# or
+yarn install
+# etc.
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -47,3 +61,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Components
+If you need to, you can make a component and test it using [Storybook](https://storybook.js.org/docs)
+
+```
+yarn storybook
+```
+
+Make sure you have a `*.stories.tsx` file with the correct imports and exports to see your component on Storybook.
