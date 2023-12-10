@@ -2,6 +2,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+###Requirements:
+Node.js
+Next.js
+
+Recommended to use Homebrew to install Node.js: [Homebrew](https://brew.sh/)
+Use the following command in your terminal to install Homebrew:
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+Install Node:
+`brew install node`
+Install Next.js:
+`npm install next`
+
+###Running the app:
 First, run the development server:
 
 ```bash
