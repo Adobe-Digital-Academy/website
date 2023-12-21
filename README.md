@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-###Requirements:
+### Requirements:
 Node.js
 Next.js
 
@@ -14,7 +14,7 @@ Install Node:
 Install Next.js:
 `npm install next`
 
-###Running the app:
+### Running the app:
 First, run the development server:
 Ensure you are using node 18.17.0 or above
 
@@ -68,6 +68,9 @@ If you need to, you can make a component and test it using [Storybook](https://s
 
 ```
 yarn storybook
+
+# or 
+npm run storybook
 ```
 
 Make sure you have a `*.stories.tsx` file with the correct imports and exports to see your component on Storybook.
